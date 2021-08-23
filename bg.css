@@ -1,0 +1,19 @@
+body {
+    background-image: url("travel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 1080 px;
+    
+    
+  }
+  h1{
+    color:white;
+    
+  }
+  h2{
+    color:white;
+    
+  }
+  

@@ -1,0 +1,79 @@
+
+  a:hover {
+    background-color: red ;
+    opacity: 0.5;
+  }
+  img{
+    opacity:0.5;
+  }
+  .hero {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    
+    
+    
+}
+
+.hero::before {    
+      content: "";
+      background-image: url('red.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.75;
+}
+
+h2 {
+  position: relative;
+  color:white;
+  
+ }
+ h5 {
+  position: relative;
+  color:white;
+  
+ }
+ h6 {
+  position: relative;
+  color:white;
+  
+ }
+
+p{
+  position: relative;
+  color:white;  
+  
+
+}
+section {
+  padding: 100px 0px;
+}
+img {
+  width: 40%;
+}
+   
+.carousel-inner {
+   background-color: #C1E0FF;
+}
+ 
+.carousel-caption {
+   font-size: 2em;
+   right: 10%;
+   left: 60%;
+   top: 30%;
+   bottom: 30%;
+   text-align: left;
+   text-shadow: none;
+  }
+.carousel-indicators{
+   font-size: 2em;
+   bottom: -1%;
+   text-align: left;
+   text-shadow: none;
+     }
+
+  
